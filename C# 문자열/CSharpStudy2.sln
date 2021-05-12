@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.1062
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C샵 시작하기", "C샵 시작하기\C샵 시작하기.csproj", "{63825E11-BAAD-4CF2-9C9F-31A7D36E5C28}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Study_string", "CSharpStudy2\Study_string.csproj", "{CCC9FE3D-2AFE-400E-B3FF-0929A76E7235}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{63825E11-BAAD-4CF2-9C9F-31A7D36E5C28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{63825E11-BAAD-4CF2-9C9F-31A7D36E5C28}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{63825E11-BAAD-4CF2-9C9F-31A7D36E5C28}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{63825E11-BAAD-4CF2-9C9F-31A7D36E5C28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCC9FE3D-2AFE-400E-B3FF-0929A76E7235}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCC9FE3D-2AFE-400E-B3FF-0929A76E7235}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCC9FE3D-2AFE-400E-B3FF-0929A76E7235}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCC9FE3D-2AFE-400E-B3FF-0929A76E7235}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {FEBC9907-8EAC-44C0-88A7-AD698A4E82E4}
+		SolutionGuid = {909DF4B4-198B-4963-BE18-6CDDFA3A6C02}
 	EndGlobalSection
 EndGlobal
