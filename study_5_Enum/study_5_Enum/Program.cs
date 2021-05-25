@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WindowsFormsApp2
+namespace study_5_Enum
 {
     static class Program
     {
