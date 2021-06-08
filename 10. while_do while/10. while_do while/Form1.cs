@@ -41,7 +41,33 @@ namespace _10.while_do_while
             }
 
             lblwhileResult.Text = sb.ToString();
-            lblwhileResult.Items
+            lboxwhileResult.Items.Add(sb.ToString());
+        }
+
+        private void btndowhileResult_Click(object sender, EventArgs e)
+        {
+            //1~100
+
+            Random rd = new Random();
+
+            int iNumber = int.Parse(tboxNumber.Text);
+
+            if (iNumber < 1 || iNumber > 100)
+            {
+                MessageBox.Show("1~100 사이의 숫자를 지정해 주세요");
+            }
+
+            int iCheckNumber = 0;
+            int iCount = 0;
+
+            do
+            {
+                iCheckNumber = rd.Next(1, 101); // 1<= x < 101
+                iCount++;
+            } while (iNumber != iCheckNumber);
+
+            lbldowhileResult.Text = string.Format("-뽑은 숫자 {0}을 {1}회만에 찾았습니다.", iNumber, iCount);
+
         }
     }
 }

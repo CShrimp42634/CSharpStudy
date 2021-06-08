@@ -78,12 +78,13 @@
             // 
             // btndowhileResult
             // 
-            this.btndowhileResult.Location = new System.Drawing.Point(97, 216);
+            this.btndowhileResult.Location = new System.Drawing.Point(96, 216);
             this.btndowhileResult.Name = "btndowhileResult";
             this.btndowhileResult.Size = new System.Drawing.Size(75, 21);
             this.btndowhileResult.TabIndex = 4;
             this.btndowhileResult.Text = "선택 번호";
             this.btndowhileResult.UseVisualStyleBackColor = true;
+            this.btndowhileResult.Click += new System.EventHandler(this.btndowhileResult_Click);
             // 
             // label1
             // 
