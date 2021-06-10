@@ -47,63 +47,72 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 18);
+            this.label1.Location = new System.Drawing.Point(14, 22);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(275, 12);
+            this.label1.Size = new System.Drawing.Size(341, 15);
             this.label1.TabIndex = 0;
             this.label1.Text = "-Player는 한번 씩 돌아가면서 그림을 선택 합니다";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(12, 47);
+            this.label2.Location = new System.Drawing.Point(14, 59);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(425, 12);
+            this.label2.Size = new System.Drawing.Size(533, 15);
             this.label2.TabIndex = 1;
             this.label2.Text = "- 각 5회 진행 후 하늘,검정,살색의 숫자의 합이 가장 높은 사람이 승리 합니다.";
             // 
             // pboxSun
             // 
             this.pboxSun.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.pboxSun.Location = new System.Drawing.Point(14, 78);
+            this.pboxSun.Location = new System.Drawing.Point(16, 98);
+            this.pboxSun.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pboxSun.Name = "pboxSun";
-            this.pboxSun.Size = new System.Drawing.Size(108, 152);
+            this.pboxSun.Size = new System.Drawing.Size(123, 190);
             this.pboxSun.TabIndex = 2;
             this.pboxSun.TabStop = false;
+            this.pboxSun.Click += new System.EventHandler(this.pboxSun_Click);
             // 
             // pboxMoon
             // 
             this.pboxMoon.BackColor = System.Drawing.Color.Black;
-            this.pboxMoon.Location = new System.Drawing.Point(146, 78);
+            this.pboxMoon.Location = new System.Drawing.Point(167, 98);
+            this.pboxMoon.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pboxMoon.Name = "pboxMoon";
-            this.pboxMoon.Size = new System.Drawing.Size(108, 152);
+            this.pboxMoon.Size = new System.Drawing.Size(123, 190);
             this.pboxMoon.TabIndex = 3;
             this.pboxMoon.TabStop = false;
+            this.pboxMoon.Click += new System.EventHandler(this.pboxMoon_Click);
             // 
             // pboxNone
             // 
             this.pboxNone.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.pboxNone.Location = new System.Drawing.Point(411, 78);
+            this.pboxNone.Location = new System.Drawing.Point(470, 98);
+            this.pboxNone.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pboxNone.Name = "pboxNone";
-            this.pboxNone.Size = new System.Drawing.Size(108, 152);
+            this.pboxNone.Size = new System.Drawing.Size(123, 190);
             this.pboxNone.TabIndex = 4;
             this.pboxNone.TabStop = false;
+            this.pboxNone.Click += new System.EventHandler(this.pboxNone_Click);
             // 
             // pboxStar
             // 
             this.pboxStar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.pboxStar.Location = new System.Drawing.Point(278, 78);
+            this.pboxStar.Location = new System.Drawing.Point(318, 98);
+            this.pboxStar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pboxStar.Name = "pboxStar";
-            this.pboxStar.Size = new System.Drawing.Size(108, 152);
+            this.pboxStar.Size = new System.Drawing.Size(123, 190);
             this.pboxStar.TabIndex = 5;
             this.pboxStar.TabStop = false;
+            this.pboxStar.Click += new System.EventHandler(this.pboxStar_Click);
             // 
             // rdoPlayer1
             // 
             this.rdoPlayer1.AutoSize = true;
-            this.rdoPlayer1.Location = new System.Drawing.Point(12, 256);
+            this.rdoPlayer1.Location = new System.Drawing.Point(14, 320);
+            this.rdoPlayer1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.rdoPlayer1.Name = "rdoPlayer1";
-            this.rdoPlayer1.Size = new System.Drawing.Size(65, 16);
+            this.rdoPlayer1.Size = new System.Drawing.Size(77, 19);
             this.rdoPlayer1.TabIndex = 6;
             this.rdoPlayer1.TabStop = true;
             this.rdoPlayer1.Text = "Player1";
@@ -112,9 +121,10 @@
             // rdoPlayer2
             // 
             this.rdoPlayer2.AutoSize = true;
-            this.rdoPlayer2.Location = new System.Drawing.Point(309, 256);
+            this.rdoPlayer2.Location = new System.Drawing.Point(353, 320);
+            this.rdoPlayer2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.rdoPlayer2.Name = "rdoPlayer2";
-            this.rdoPlayer2.Size = new System.Drawing.Size(65, 16);
+            this.rdoPlayer2.Size = new System.Drawing.Size(77, 19);
             this.rdoPlayer2.TabIndex = 7;
             this.rdoPlayer2.TabStop = true;
             this.rdoPlayer2.Text = "Player2";
@@ -123,27 +133,29 @@
             // lboxResult1
             // 
             this.lboxResult1.FormattingEnabled = true;
-            this.lboxResult1.ItemHeight = 12;
-            this.lboxResult1.Location = new System.Drawing.Point(12, 278);
+            this.lboxResult1.ItemHeight = 15;
+            this.lboxResult1.Location = new System.Drawing.Point(14, 348);
+            this.lboxResult1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.lboxResult1.Name = "lboxResult1";
-            this.lboxResult1.Size = new System.Drawing.Size(258, 88);
+            this.lboxResult1.Size = new System.Drawing.Size(294, 109);
             this.lboxResult1.TabIndex = 8;
             this.lboxResult1.UseTabStops = false;
             // 
             // lboxResult2
             // 
             this.lboxResult2.FormattingEnabled = true;
-            this.lboxResult2.ItemHeight = 12;
-            this.lboxResult2.Location = new System.Drawing.Point(309, 278);
+            this.lboxResult2.ItemHeight = 15;
+            this.lboxResult2.Location = new System.Drawing.Point(353, 348);
+            this.lboxResult2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.lboxResult2.Name = "lboxResult2";
-            this.lboxResult2.Size = new System.Drawing.Size(224, 88);
+            this.lboxResult2.Size = new System.Drawing.Size(255, 109);
             this.lboxResult2.TabIndex = 9;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(545, 373);
+            this.ClientSize = new System.Drawing.Size(623, 466);
             this.Controls.Add(this.lboxResult2);
             this.Controls.Add(this.lboxResult1);
             this.Controls.Add(this.rdoPlayer2);
@@ -154,6 +166,7 @@
             this.Controls.Add(this.pboxSun);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Form1";
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.pboxSun)).EndInit();
