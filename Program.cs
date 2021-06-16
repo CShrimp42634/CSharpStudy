@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace _13.lnheritance
+namespace _15_part
 {
     static class Program
     {
